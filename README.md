@@ -2,8 +2,8 @@
 WinFormsCalculator2
 # Calculator
 
-by Tanapattara Wongkhamchan,
-670000000-0,
+by krittin Intrakool,
+673450030-6,
 Computer and Infomation Science, KKU
 
 # การรับและการแสดงผลข้อมูล
@@ -42,7 +42,8 @@ string input = num1.Text();-
 ตัวอย่าง
 
 ```
-
+ double iNum1 = Double.Parse(inputNum1);
+    double iNum2 = Double.Parse(inputNum2);
 ```
 
 ### คำนวนผลลัพท์
@@ -50,7 +51,7 @@ string input = num1.Text();-
 ตัวอย่าง
 
 ```
-
+double iresult = iNum1 - iNum2;
 ```
 
 ### แสดงผล
@@ -58,13 +59,39 @@ string input = num1.Text();-
 ตัวอย่าง
 
 ```
-
+result.Text = iresult.ToString();
 ```
 
 ## ปุ่มลบ
-
+{
+    string inputNum1 = num1.Text;
+    string inputNum2 = num2.Text;
+    double iNum1 = Double.Parse(inputNum1);
+    double iNum2 = Double.Parse(inputNum2);
+    double iresult = iNum1 - iNum2;
+    result.Text = iresult.ToString();
+}
 ## ปุ่มคูณ
-
+{
+    string inputNum1 = num1.Text;
+    string inputNum2 = num2.Text;
+    double iNum1 = Double.Parse(inputNum1);
+    double iNum2 = Double.Parse(inputNum2);
+    double iresult = iNum1 * iNum2;
+    result.Text = iresult.ToString();
+}
 ## ปุ่มหาร
-
+{
+    string inputNum1 = num1.Text;
+    string inputNum2 = num2.Text;
+    double iNum1 = Double.Parse(inputNum1);
+    double iNum2 = Double.Parse(inputNum2);
+    double iresult = iNum1 / iNum2;
+    result.Text = iresult.ToString();
+}
 ## ปุ่มลบข้อมูล
+{
+    num1.Clear();
+    num2.Clear();
+    result.Clear();
+}
