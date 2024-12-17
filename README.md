@@ -63,6 +63,7 @@ result.Text = iresult.ToString();
 ```
 
 ## ปุ่มลบ
+```
 {
     string inputNum1 = num1.Text;
     string inputNum2 = num2.Text;
@@ -71,7 +72,9 @@ result.Text = iresult.ToString();
     double iresult = iNum1 - iNum2;
     result.Text = iresult.ToString();
 }
+```
 ## ปุ่มคูณ
+```
 {
     string inputNum1 = num1.Text;
     string inputNum2 = num2.Text;
@@ -80,7 +83,9 @@ result.Text = iresult.ToString();
     double iresult = iNum1 * iNum2;
     result.Text = iresult.ToString();
 }
+```
 ## ปุ่มหาร
+```
 {
     string inputNum1 = num1.Text;
     string inputNum2 = num2.Text;
@@ -89,9 +94,12 @@ result.Text = iresult.ToString();
     double iresult = iNum1 / iNum2;
     result.Text = iresult.ToString();
 }
+```
 ## ปุ่มลบข้อมูล
+```
 {
     num1.Clear();
     num2.Clear();
     result.Clear();
 }
+```
